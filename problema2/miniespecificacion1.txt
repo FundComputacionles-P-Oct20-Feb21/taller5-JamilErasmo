@@ -1,0 +1,22 @@
+
+1. Inicio
+// Variables
+2. cantidad, d[0,n]
+3. precio, d[0,n]
+4. totalp, d[0,n]
+5. descuento, d[0,n]
+6. descuento <-- 15%
+// Pedir datos por método de entrada - teclado
+7. Escribir "Ingresar la cantidad solicitada del producto"
+8. Leer cantidad
+9. Escribir " Ingresar el precio unitario del producto"
+10. Leer preciouni
+// Proceso
+11. totalp <-- cantidad * oreciouni
+12. Si cantidad > 50 unidades entonces
+13. descuento <-- (porcentaje * totalp)/100
+14. totalp <-- totalp - descuento
+15. Fin si
+ // Salida
+16. Escribir "El valor total a pagar es:" + totalp
+17. Fin

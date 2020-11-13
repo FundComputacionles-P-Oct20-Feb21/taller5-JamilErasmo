@@ -1,0 +1,39 @@
+1. Inicio 
+//Variables
+2. nDias, d[0,n]
+3. precioDiario, d[0,n]
+4. subtotal, d[0,n]
+5. totalp, d[0,n]
+6. PorcentajeCinco, d[[0,n]
+7. PorcentajeCinco <-- 10%
+8. PorcentajeDiez, d[0,n]
+9. PorcentajeDiez <-- 15%
+10. PorcentajeQuince, d[0,n]
+11. PorcentajeQuince <-- 20%
+12. Descuento, d[0,n]
+// Pido ingreso de datos mediante entrada-teclado
+13. Escribir "Ingresar el número de días a hospedarse"
+14. Leer nDias
+15. Escribir "Ingresar el precio diario de la habitación"
+16. Leer precioDiario
+// Proceso
+17. subtotal <-- nDias * precioDiario
+18. totalp <-- Subtotal
+
+19. Si nDias > 5 entonces
+20. descuento <-- (porcentajecinco * subtotal)/100
+21. totalp <-- subtotal - descuento
+22.   De lo contrario 
+23.   Si nDias > 10 entonces
+24.   descuento <-- (pocentajeDiez * subtotal)/100
+25.   totalp <-- subtotal - descuento
+26.     De lo contrario
+27.     Si nDias > 15 entonces
+28.     descuento <-- (porcentajeQuince * subtotal)/100
+29.     totalp <-- subtotal - descuento 
+//Salida
+30. Escribir "El subtotal es:" + subtotal
+31. Escribir "El descuento es:" + descuento
+32. Escribir "El total a pagar es:" + totalp 
+
+33.Fin

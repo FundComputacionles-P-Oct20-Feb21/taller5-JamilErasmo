@@ -1,0 +1,25 @@
+1. Inicio 
+//Presento las variables
+2. valor, d[0,n]
+3. consumidos, d[0,n]
+4. total, d[0,n]
+5. edad, i[0,n]
+6. porcentaje, d[0,n]
+7. porcentaje <-- 10%
+8. descuento, d[0,n]
+
+// Pedir datos por método entrada-teclado
+9. Escribir "Ingresar el costo por kilovatio por hora"
+10. Leer valor
+11. Escribir "Ingresar los kilovatios consumidos al mes"
+12. Leer consumidos
+// Proceso 
+13. total <-- valor * consumidos
+14. Si edad > 65 entonces
+15. descuento <-- (porcentaje * total)/100
+16. total <-- total - descuento
+17. Fin si
+// Salida
+18. Escribir "El valor total a pagar es:"+total
+
+19. Fin
