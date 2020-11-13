@@ -3,7 +3,7 @@
 // Variables
 2. cantidad, d[0,n]
 3. precio, d[0,n]
-4. totalp, d[0,n]
+4. total, d[0,n]
 5. descuento, d[0,n]
 6. descuento <-- 15%
 // Pedir datos por método de entrada - teclado
